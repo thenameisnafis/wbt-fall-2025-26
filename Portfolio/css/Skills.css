@@ -1,0 +1,135 @@
+/* ===== GLOBAL RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f7f8fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    width: 100%;
+    padding: 15px 40px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: 600;
+    color: #222;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #444;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: #007bff;
+}
+
+/* ===== PAGE HEADER ===== */
+.page-header {
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+.page-header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #222;
+}
+
+/* ===== SKILLS CONTAINER ===== */
+.skills-container {
+    max-width: 1000px;
+    margin: 0 auto 70px;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+/* ===== SKILL CARD ===== */
+.skill-card {
+    background: #ffffff;
+    flex: 1 1 280px;
+    min-width: 280px;
+    max-width: 350px;
+    padding: 20px 25px;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* ===== SKILL CARD TEXT ===== */
+.skill-card h2 {
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.skill-card ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.skill-card ul li {
+    margin-bottom: 6px;
+    font-size: 15px;
+    color: #555;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    text-align: center;
+    padding: 25px 0;
+    background: #ffffff;
+    border-top: 1px solid #eee;
+}
+
+.footer p {
+    color: #555;
+    font-size: 15px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 700px) {
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-card {
+        max-width: 90%;
+    }
+}

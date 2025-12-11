@@ -5,46 +5,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Projects by Nafis Hasan - Web, AI, and Software development.">
+    <link rel="stylesheet" href="../css/Projects.css">
     <title>Projects - Nafis Hasan</title>
 </head>
 
 <body>
 
-    <header>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Nafis Hasan</div>
+        <ul class="nav-links">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="Education.html">Education</a></li>
+            <li><a href="Experience.html">Experience</a></li>
+            <li><a href="Skills.html">Skills</a></li>
+            <li><a href="Projects.html" class="active">Projects</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
         <h1>Projects</h1>
     </header>
 
-    <main>
-        <ol>
-            <li>
+    <!-- Projects Container -->
+    <main class="projects-container">
+
+        <!-- Project Card 1 -->
+        <div class="project-card">
+            <img src="../data/projects/ai_traffic_light.png" alt="AI Traffic Light System" class="project-img">
+            <div class="project-info">
                 <h2>AI Traffic Light System</h2>
                 <p><strong>Technologies:</strong> Python, OpenCV, TensorFlow</p>
-                <p><strong>Description:</strong> Developed an intelligent traffic light system that detects vehicle density and adjusts signals dynamically to reduce congestion.</p>
-                <p><strong>Status:</strong> Completed</p>
-            </li>
+                <p>Developed an intelligent traffic light system that detects vehicle density and adjusts signals dynamically to reduce congestion.</p>
+                <span class="status completed">Completed</span>
+            </div>
+        </div>
 
-            <li>
+        <!-- Project Card 2 -->
+        <div class="project-card">
+            <img src="../data/projects/portfolio_website.png" alt="Portfolio Website" class="project-img">
+            <div class="project-info">
                 <h2>Portfolio Website</h2>
                 <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
-                <p><strong>Description:</strong> A responsive personal website showcasing my education, experience, skills, and projects.</p>
-                <p><strong>Status:</strong> Ongoing</p>
-            </li>
+                <p>A responsive personal website showcasing my education, experience, skills, and projects.</p>
+                <span class="status ongoing">Ongoing</span>
+            </div>
+        </div>
 
-            <li>
+        <!-- Project Card 3 -->
+        <div class="project-card">
+            <img src="../data/projects/student_management.png" alt="Student Management System" class="project-img">
+            <div class="project-info">
                 <h2>Student Management System</h2>
                 <p><strong>Technologies:</strong> C#, SQL Server, ADO.NET</p>
-                <p><strong>Description:</strong> Desktop-based application to manage student records, grades, and performance tracking efficiently.</p>
-                <p><strong>Status:</strong> Completed</p>
-            </li>
+                <p>Desktop-based application to manage student records, grades, and performance tracking efficiently.</p>
+                <span class="status completed">Completed</span>
+            </div>
+        </div>
 
-            <li>
+        <!-- Project Card 4 -->
+        <div class="project-card">
+            <img src="../data/projects/weather_app.png" alt="Weather Forecasting App" class="project-img">
+            <div class="project-info">
                 <h2>Weather Forecasting App</h2>
                 <p><strong>Technologies:</strong> JavaScript, React, OpenWeather API</p>
-                <p><strong>Description:</strong> Real-time weather application fetching API data to show live temperature, humidity, and forecast details.</p>
-                <p><strong>Status:</strong> Completed</p>
-            </li>
-        </ol>
+                <p>Real-time weather application fetching API data to show live temperature, humidity, and forecast details.</p>
+                <span class="status completed">Completed</span>
+            </div>
+        </div>
+
     </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Nafis Hasan — All Rights Reserved.</p>
+    </footer>
 
 </body>
 

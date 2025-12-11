@@ -5,38 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio and Curriculum Vitae of Nafis Hasan — Web Developer and AI Enthusiast.">
-    <title>Portfolio - Nafis Hasan</title>
+    <title>Nafis Hasan | Portfolio</title>
+    <link rel="stylesheet" href="../Portfolio/css/style.css">
+    <script src="../js/script.js"></script>
+
+    <!-- Favicon (optional) -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 
 <body>
 
     <!-- Navigation Bar -->
-    <nav>
-        <p>
-            <a href="html/Education.html">Education</a> |
-            <a href="html/Experience.html">Experience</a> |
-            <a href="html/Skills.html">Skills</a> |
-            <a href="html/Projects.html">Projects</a> |
-            <a href="html/Contact.html">Contact</a>
-        </p>
+    <nav class="navbar">
+        <div class="logo">Nafis Hasan</div>
+        <ul class="nav-links">
+            <li><a href="html/Education.html">Education</a></li>
+            <li><a href="html/Experience.html">Experience</a></li>
+            <li><a href="html/Skills.html">Skills</a></li>
+            <li><a href="html/Projects.html">Projects</a></li>
+            <li><a href="html/Contact.html">Contact</a></li>
+        </ul>
     </nav>
 
-    <hr>
+    <!-- Hero / About Section -->
+    <main class="hero">
+        <div class="hero-left">
+            <img src="data/NAFIS2.png" alt="Nafis Hasan" class="profile-img">
+        </div>
 
-    <!-- About Section -->
-    <header>
-        <img src="../Portfolio/data/NAFIS2.png" alt="Nafis Hasan" width="130" height="130"><br>
-        <h1>Nafis Hasan</h1>
-        <h2>Web Developer | AI Enthusiast</h2>
-        <p><strong>Address:</strong> Kafrul, Dhaka Cantonment – 1206</p>
-        <p><strong>Email:</strong> <a href="mailto:nafishasan149@gmail.com">nafishasan149@gmail.com</a></p>
-        <p><strong>Bio:</strong> Passionate about crafting digital experiences and developing intelligent systems through code and creativity.</p>
-    </header>
+        <div class="hero-right">
+            <h1 class="name">Nafis Hasan</h1>
+            <h2 class="title">Web Developer | AI Enthusiast</h2>
 
-    <hr>
+            <p><strong>Address:</strong> Kafrul, Dhaka Cantonment – 1206</p>
+            <p><strong>Email:</strong> 
+                <a href="mailto:nafishasan149@gmail.com">nafishasan149@gmail.com</a>
+            </p>
+
+            <p class="bio">
+                Passionate about crafting digital experiences and developing intelligent systems 
+                through code and creativity. I aim to combine design, development, and AI to build 
+                purposeful and impactful solutions.
+            </p>
+
+            <div class="cta-buttons">
+                <a href="files/cv.pdf" class="btn">Download CV</a>
+                <a href="html/Projects.html" class="btn btn-outline">View Projects</a>
+            </div>
+        </div>
+    </main>
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
         <p>© 2025 Nafis Hasan — All Rights Reserved.</p>
     </footer>
 
